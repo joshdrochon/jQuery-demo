@@ -6,6 +6,21 @@ display it because we have a css rule of display:none in effect.
 in our scripts file we have a jQuery function where when we click on the <p>
 element, .coast-hidden */
 
+h1{
+  text-align: center;
+}
+
+.green-background{
+  background-color: lightgreen;
+}
+
+.yellow-background{
+  background-color: yellow;
+}
+
+.red-background{
+  background-color: #BB0000;
+}
 
 #initially-hidden{
   display: none;
