@@ -1,18 +1,16 @@
 $(function(){
   $(".clickable").click(function(){
-    $("#initially-showing").toggle();
-    $("#initially-hidden").toggle();
+    $("#initially-showing").fadeToggle();
+    $("#initially-hidden").fadeToggle();
   });
 
   $(".expand").click(function(){
-    $(".expanded-text").fadeIn();
+    $(".expanded-text").fadeToggle();
+  });
+
   });
 
 
-
-
-
-});
 
 
 /*

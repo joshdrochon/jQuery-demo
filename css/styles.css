@@ -33,6 +33,19 @@ element, .coast-hidden */
   text-decoration: underline;
 }
 
+.collapse{
+  cursor: pointer;
+  color:#0088cc
+}
+
+.collapse:hover{
+  text-decoration: underline;
+}
+
 .expanded-text{
+  display: none;
+}
+
+.collapsed-text{
   display: none;
 }
