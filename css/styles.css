@@ -1,0 +1,38 @@
+
+/* when page initially loads, in the html file it comes across.coast-hidden
+class and displays it. When it goes down to the .coast-showing class it doesn't
+display it because we have a css rule of display:none in effect.
+
+in our scripts file we have a jQuery function where when we click on the <p>
+element, .coast-hidden */
+
+
+#initially-hidden{
+  display: none;
+}
+
+#initially-hidden img{
+  max-width: 25%;
+}
+
+.clickable{
+  cursor: pointer;
+  color: #0088cc
+}
+
+.clickable:hover {
+  text-decoration: underline;
+}
+
+.expand{
+  cursor: pointer;
+  color: #0088cc
+}
+
+.expand:hover {
+  text-decoration: underline;
+}
+
+.expanded-text{
+  display: none;
+}
